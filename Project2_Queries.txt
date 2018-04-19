@@ -1,0 +1,27 @@
+#To Find all the documents in the department collections
+db.MongoProject2.Departments.find()
+
+#To Find all the documents in the Projects collections
+db.MongoProject2.Projects.find()
+
+#finding Department Name = Research
+db.MongoProject2.Departments_Collection.find({"DeptName":"Research"})
+
+#finding Project Name = Human1
+db.MongoProject2.Departments_Collection.find({"Project_Name":"Human1"})
+
+# Read first 5 elements
+db.MongoProject2.Departments_Collection.find().limit(5)
+
+#display department in json
+db.MongoProject2.Departments_Collection.find().pretty()
+
+#display projects in json
+db.MongoProject2.Projects_Collection.find().pretty()
+
+#Count of Department Collection
+db.MongoProject2.Departments_Collection.count()
+
+#Count of Projects Collection
+db.MongoProject2.Projects_Collection.count()
+
