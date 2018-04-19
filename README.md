@@ -1,4 +1,5 @@
-WorkingWithMongoDB
+
+WorkingWithMongoDB:
 The database of a company is depicted in JSON format using Mongo DB and two schemas have been created as:
 
     1.	The PROJECT document will include the following data: Pnumber, Pname, Dname (of the controlling department), plus a list of the employees that work on the project {employees: Lname, Fname, Hours}.
